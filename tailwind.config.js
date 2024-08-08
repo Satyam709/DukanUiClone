@@ -7,7 +7,8 @@ export default {
       "bluecard-700": "#0E4F82",
       "bluecard-600": "#146EB4",
       "white": "#ffffff",
-      "background":"#FAFAFA"
+      "background":"#FAFAFA",
+      "green-500":"#22C55D"
     },
   },
   plugins: [],

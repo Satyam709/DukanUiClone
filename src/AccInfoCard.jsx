@@ -5,7 +5,7 @@ import OverviewHead from "./OverviewHeader.jsx";
 
 export default function AccinfoCard() {
   return (
-    <div className="acc-highlights flex flex-col gap-5 border p-5">
+    <div className="acc-highlights flex flex-col gap-5 p-5 pl-0">
       <OverviewHead></OverviewHead>
       <div className="info-cards flex gap-5 flex-wrap">
         <ColoredCard amount={"2,312.23"}></ColoredCard>
