@@ -1,8 +1,11 @@
 import React from "react";
+import visibility from "./States";
+import { useRecoilValue } from "recoil";
 
 function Aside() {
+  const val = useRecoilValue(visibility);
   return (
-    <div className="collapse md:visible md:w-[224px] p-3 md:fixed bg-[#1E2640] h-dvh">
+    <div className={`${val?"visible":"collapse z-99999"} md:visible md:w-[224px] p-3 fixed bg-[#1E2640] h-dvh`}>
       <div className="flex gap-6 flex-col">
         <div className="flex items-center justify-between">
           <div className="user items-center text-white flex gap-3">
